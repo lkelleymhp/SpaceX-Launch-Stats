@@ -1,0 +1,20 @@
+{
+  "name": "spacex-launch-stats",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },  
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lkelleymhp/SpaceX-Launch-Stats.git"
+  },
+  "author": "Loren Kelley",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lkelleymhp/SpaceX-Launch-Stats/issues"
+  },
+  "homepage": "https://github.com/lkelleymhp/SpaceX-Launch-Stats#readme"
+}

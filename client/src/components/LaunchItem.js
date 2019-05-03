@@ -1,8 +1,7 @@
-
-import React from 'react';
-import classNames from 'classnames';
-import Moment from 'react-moment';
-import { Link } from 'react-router-dom';
+import React from './node_modules/react';
+import classNames from './node_modules/classnames';
+import Moment from './node_modules/react-moment';
+import { Link } from './node_modules/react-router-dom';
 
 export default function LaunchItem({
   launch: { flight_number, mission_name, launch_date_local, launch_success }
@@ -34,4 +33,4 @@ export default function LaunchItem({
       </div>
     </div>
   );
-}
+            }

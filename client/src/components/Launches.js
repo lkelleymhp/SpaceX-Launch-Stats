@@ -1,8 +1,6 @@
-import React, { Component, Fragment } from 'react';
-//from graphql used to make queries
-import gql from 'graphql-tag';
-
-import { Query } from 'react-apollo';
+import React, { Component, Fragment } from './node_modules/react';
+import gql from './node_modules/graphql-tag';
+import { Query } from './node_modules/react-apollo';
 import LaunchItem from './LaunchItem';
 import MissionKey from './MissionKey';
 
